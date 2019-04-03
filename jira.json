@@ -1,1 +1,751 @@
-{"name":"PVP-307","children":[{"name":"PROCESSING-3737-Migrate Service and components running in current perf environment to new Perf environment","value":"Analyse"},{"name":"PLAYOUT-3421-Playout - Account Separation","value":"In Progress"},{"name":"PLAYOUT-3420-Create new PerfTest environment","value":"In Progress"},{"name":"PLATFORM-271-Ready to switch over","value":"Backlog"},{"name":"PLATFORM-253-Ready for Observability APPS","value":"Backlog"},{"name":"PLATFORM-252-Ready for Observability Infrastructure","value":"Backlog"},{"name":"PLATFORM-241-Ready for App Deployments (Delivery Teams)","value":"Backlog"},{"name":"PLATFORM-240-Ready for Data Replication","value":"Next"},{"name":"PLATFORM-233-Ready for Stage Specific Infrastructure","value":"In Progress"},{"name":"PLATFORM-216-Ready for Account specific Infrasturcture","value":"Done"},{"name":"PLATFORM-215-Ready for network setup","value":"In Progress"},{"name":"PLATFORM-197-Migrate Perf environment into a new AWS account with its own management platform","value":"Backlog"},{"name":"PLATFORM-187-Refactor Automation Code for Multiple Accounts","value":"In Progress"},{"name":"META-1116-META: Migrate Service and components running in current perf environment to new AWS account","value":"Next"},{"name":"FOUNDATION-3552-Migrate Service and components running in current perf environment to new Perf environment","value":"In Progress"},{"name":"CUSTSUCCES-591-Migrate Service and components running in current Shared environment to new environment","value":"Backlog"},{"name":"CONSOLE-3607-Migrate Service and components running in current perf environment to new Perf environment","value":"Backlog"}]}
+{
+  "name": "PVP-307",
+  "children": [
+    {
+      "name": "PROCESSING-3737-Migrate Service and components running in current perf environment to new Perf environment",
+      "value": "Analyse",
+      "children": [
+        {
+          "name": "PROCESSING-3767-Team Apps Deployment Config",
+          "value": "Backlog",
+          "children": [
+
+          ]
+        },
+        {
+          "name": "PROCESSING-3766-Team Apps Deployment",
+          "value": "Backlog",
+          "children": [
+
+          ]
+        },
+        {
+          "name": "PROCESSING-3765-Team Banker Data",
+          "value": "Backlog",
+          "children": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PLAYOUT-3421-Playout - Account Separation",
+      "value": "In Progress",
+      "children": [
+        {
+          "name": "PLAYOUT-3427-Identify all components that will be effected by Account Separation",
+          "value": "Backlog",
+          "children": [
+
+          ]
+        },
+        {
+          "name": "PLAYOUT-3426-AWS ASG PlayReady",
+          "value": "Acceptance",
+          "children": [
+
+          ]
+        },
+        {
+          "name": "PLAYOUT-3425-AWS Elasticache",
+          "value": "Backlog",
+          "children": [
+
+          ]
+        },
+        {
+          "name": "PLAYOUT-3423-AWS S3 Buckets investigation",
+          "value": "Backlog",
+          "children": [
+
+          ]
+        },
+        {
+          "name": "PLAYOUT-3422-AWS IAM investigation",
+          "value": "Backlog",
+          "children": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PLAYOUT-3420-Create new PerfTest environment",
+      "value": "In Progress",
+      "children": [
+        {
+          "name": "PLAYOUT-3431-Enable acceptance tests against perf environment",
+          "value": "In Progress",
+          "children": [
+
+          ]
+        },
+        {
+          "name": "PLAYOUT-3430-Team apps deployment config",
+          "value": "Backlog",
+          "children": [
+
+          ]
+        },
+        {
+          "name": "PLAYOUT-3429-Team Apps deployment",
+          "value": "Backlog",
+          "children": [
+
+          ]
+        },
+        {
+          "name": "PLAYOUT-3428-Team banker data",
+          "value": "Analyse",
+          "children": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PLATFORM-271-Ready to switch over",
+      "value": "Backlog",
+      "children": [
+        {
+          "name": "PLATFORM-272-Validate ENV",
+          "value": "Backlog",
+          "children": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PLATFORM-253-Ready for Observability APPS",
+      "value": "Backlog",
+      "children": [
+        {
+          "name": "PLATFORM-270-Migrate dashboards G&K",
+          "value": "Backlog",
+          "children": [
+
+          ]
+        },
+        {
+          "name": "PLATFORM-269-KIBANA",
+          "value": "Backlog",
+          "children": [
+
+          ]
+        },
+        {
+          "name": "PLATFORM-268-Flink logs Job",
+          "value": "Backlog",
+          "children": [
+
+          ]
+        },
+        {
+          "name": "PLATFORM-267-AWS Logs collector",
+          "value": "Backlog",
+          "children": [
+
+          ]
+        },
+        {
+          "name": "PLATFORM-266-Alert Dashboard",
+          "value": "Backlog",
+          "children": [
+
+          ]
+        },
+        {
+          "name": "PLATFORM-265-Graphite API",
+          "value": "Backlog",
+          "children": [
+
+          ]
+        },
+        {
+          "name": "PLATFORM-264-GRAFANA",
+          "value": "Backlog",
+          "children": [
+
+          ]
+        },
+        {
+          "name": "PLATFORM-263-AWS Metrics Collector",
+          "value": "Backlog",
+          "children": [
+
+          ]
+        },
+        {
+          "name": "PLATFORM-262-Flink Metrics Job",
+          "value": "Backlog",
+          "children": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PLATFORM-252-Ready for Observability Infrastructure",
+      "value": "Backlog",
+      "children": [
+        {
+          "name": "PLATFORM-261-KAFKA Manager",
+          "value": "Backlog",
+          "children": [
+
+          ]
+        },
+        {
+          "name": "PLATFORM-260-Metrics ES DATA",
+          "value": "Backlog",
+          "children": [
+
+          ]
+        },
+        {
+          "name": "PLATFORM-259-Cassandra Reaper",
+          "value": "Backlog",
+          "children": [
+
+          ]
+        },
+        {
+          "name": "PLATFORM-258-Cassandra Cluster",
+          "value": "Backlog",
+          "children": [
+
+          ]
+        },
+        {
+          "name": "PLATFORM-257-Metrics ES Masters & Tribe",
+          "value": "Backlog",
+          "children": [
+
+          ]
+        },
+        {
+          "name": "PLATFORM-256-ES DATA",
+          "value": "Backlog",
+          "children": [
+
+          ]
+        },
+        {
+          "name": "PLATFORM-255-ES Masters & Seatch & Tribe",
+          "value": "Backlog",
+          "children": [
+
+          ]
+        },
+        {
+          "name": "PLATFORM-254-Alerts",
+          "value": "Backlog",
+          "children": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PLATFORM-241-Ready for App Deployments (Delivery Teams)",
+      "value": "Backlog",
+      "children": [
+        {
+          "name": "PLATFORM-251-Complete Stage DSE Replication",
+          "value": "Backlog",
+          "children": [
+
+          ]
+        },
+        {
+          "name": "PLATFORM-250-Complete Stage KAFKA replication",
+          "value": "Backlog",
+          "children": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PLATFORM-240-Ready for Data Replication",
+      "value": "Next",
+      "children": [
+        {
+          "name": "PLATFORM-286-Copy Stage DSE data",
+          "value": "Next",
+          "children": [
+
+          ]
+        },
+        {
+          "name": "PLATFORM-274-Document S3 data migration",
+          "value": "Backlog",
+          "children": [
+
+          ]
+        },
+        {
+          "name": "PLATFORM-273-Document Flink application migration",
+          "value": "Backlog",
+          "children": [
+
+          ]
+        },
+        {
+          "name": "PLATFORM-249-Deploy Stage DSE",
+          "value": "Backlog",
+          "children": [
+
+          ]
+        },
+        {
+          "name": "PLATFORM-248-Join Stage DSEs",
+          "value": "Reject",
+          "children": [
+
+          ]
+        },
+        {
+          "name": "PLATFORM-247-Stage MESOS agents",
+          "value": "Done",
+          "children": [
+
+          ]
+        },
+        {
+          "name": "PLATFORM-246-Deploy Stage KAFKAS",
+          "value": "Backlog",
+          "children": [
+
+          ]
+        },
+        {
+          "name": "PLATFORM-245-Complete Stage zookeeper replication",
+          "value": "Reject",
+          "children": [
+
+          ]
+        },
+        {
+          "name": "PLATFORM-244-Stage Zookeeper deploy",
+          "value": "Backlog",
+          "children": [
+
+          ]
+        },
+        {
+          "name": "PLATFORM-243-Join stage zookeepers",
+          "value": "Reject",
+          "children": [
+
+          ]
+        },
+        {
+          "name": "PLATFORM-242-Join Stage KAFKAs",
+          "value": "Reject",
+          "children": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PLATFORM-233-Ready for Stage Specific Infrastructure",
+      "value": "In Progress",
+      "children": [
+        {
+          "name": "PLATFORM-239-Vault",
+          "value": "In Progress",
+          "children": [
+
+          ]
+        },
+        {
+          "name": "PLATFORM-238-Infra KAFKA",
+          "value": "In Progress",
+          "children": [
+
+          ]
+        },
+        {
+          "name": "PLATFORM-237-Docker registry",
+          "value": "In Progress",
+          "children": [
+
+          ]
+        },
+        {
+          "name": "PLATFORM-236-Infra Zookeeper",
+          "value": "Done",
+          "children": [
+
+          ]
+        },
+        {
+          "name": "PLATFORM-235-MESOS Masters",
+          "value": "Done",
+          "children": [
+
+          ]
+        },
+        {
+          "name": "PLATFORM-234-Infra MESOS  Agents",
+          "value": "Done",
+          "children": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PLATFORM-216-Ready for Account specific Infrasturcture",
+      "value": "Done",
+      "children": [
+        {
+          "name": "PLATFORM-276-New account admin access added to lastpass",
+          "value": "Done",
+          "children": [
+
+          ]
+        },
+        {
+          "name": "PLATFORM-275-New AWS accounts in Spotinst",
+          "value": "Done",
+          "children": [
+
+          ]
+        },
+        {
+          "name": "PLATFORM-232-INFRA DNS Setup",
+          "value": "Done",
+          "children": [
+
+          ]
+        },
+        {
+          "name": "PLATFORM-231-INFRA VPN",
+          "value": "Done",
+          "children": [
+
+          ]
+        },
+        {
+          "name": "PLATFORM-230-VPC Peering",
+          "value": "Done",
+          "children": [
+
+          ]
+        },
+        {
+          "name": "PLATFORM-229-ENV DNS Setup",
+          "value": "Done",
+          "children": [
+
+          ]
+        },
+        {
+          "name": "PLATFORM-228-INFRA VPC Build",
+          "value": "Done",
+          "children": [
+
+          ]
+        },
+        {
+          "name": "PLATFORM-227-ENV VPC Build",
+          "value": "Done",
+          "children": [
+
+          ]
+        },
+        {
+          "name": "PLATFORM-226-ENV VPN",
+          "value": "Done",
+          "children": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PLATFORM-215-Ready for network setup",
+      "value": "Done",
+      "children": [
+        {
+          "name": "PLATFORM-281-Core network changes for new ranges",
+          "value": "Done",
+          "children": [
+
+          ]
+        },
+        {
+          "name": "PLATFORM-279-Create new DNS entries for new ranges",
+          "value": "Done",
+          "children": [
+
+          ]
+        },
+        {
+          "name": "PLATFORM-225-Naming",
+          "value": "Done",
+          "children": [
+
+          ]
+        },
+        {
+          "name": "PLATFORM-224-CI Setup",
+          "value": "Done",
+          "children": [
+
+          ]
+        },
+        {
+          "name": "PLATFORM-223-Account Topology Design",
+          "value": "Done",
+          "children": [
+
+          ]
+        },
+        {
+          "name": "PLATFORM-222-Account Creation",
+          "value": "Done",
+          "children": [
+
+          ]
+        },
+        {
+          "name": "PLATFORM-221-Debian Repo",
+          "value": "Done",
+          "children": [
+
+          ]
+        },
+        {
+          "name": "PLATFORM-220-Log Bucket",
+          "value": "Done",
+          "children": [
+
+          ]
+        },
+        {
+          "name": "PLATFORM-219-TF State Bucket",
+          "value": "Done",
+          "children": [
+
+          ]
+        },
+        {
+          "name": "PLATFORM-218-Artifact Bucket",
+          "value": "Done",
+          "children": [
+
+          ]
+        },
+        {
+          "name": "PLATFORM-217-CI Users",
+          "value": "Done",
+          "children": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PLATFORM-197-Migrate Perf environment into a new AWS account with its own management platform",
+      "value": "Backlog",
+      "children": [
+        {
+          "name": "PLATFORM-200-Account Topology decisions",
+          "value": "Done",
+          "children": [
+
+          ]
+        },
+        {
+          "name": "PLATFORM-179-Create AWS account",
+          "value": "Done",
+          "children": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PLATFORM-187-Refactor Automation Code for Multiple Accounts",
+      "value": "In Progress",
+      "children": [
+        {
+          "name": "PLATFORM-214-SPIKE: identify what code change is needed to support DNS names of multiple accounts in puppet",
+          "value": "Done",
+          "children": [
+
+          ]
+        },
+        {
+          "name": "PLATFORM-201-Naming for new accounts",
+          "value": "Done",
+          "children": [
+
+          ]
+        },
+        {
+          "name": "PLATFORM-189-Refactor Terraform Code for Multiple Accounts",
+          "value": "Done",
+          "children": [
+
+          ]
+        },
+        {
+          "name": "PLATFORM-188-Refactor Puppet Code for Multiple Accounts",
+          "value": "In Progress",
+          "children": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "name": "META-1116-META: Migrate Service and components running in current perf environment to new AWS account",
+      "value": "Next",
+      "children": [
+        {
+          "name": "META-1130-Metadata Team Apps deployment config",
+          "value": "Next",
+          "children": [
+
+          ]
+        },
+        {
+          "name": "META-1129-Metadata Team Apps Deployment",
+          "value": "Next",
+          "children": [
+
+          ]
+        },
+        {
+          "name": "META-1128-Metadata Team Banker Data",
+          "value": "Next",
+          "children": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "name": "FOUNDATION-3552-Migrate Service and components running in current perf environment to new Perf environment",
+      "value": "In Progress",
+      "children": [
+        {
+          "name": "FOUNDATION-3566-Create all the keyspaces",
+          "value": "Next",
+          "children": [
+
+          ]
+        },
+        {
+          "name": "FOUNDATION-3564-Review DSE Data Streaming Process",
+          "value": "In Progress",
+          "children": [
+
+          ]
+        },
+        {
+          "name": "FOUNDATION-3563-Document process for migrating services from old to new Perf Test",
+          "value": "Next",
+          "children": [
+
+          ]
+        },
+        {
+          "name": "FOUNDATION-3561-Team Apps Deployment Config",
+          "value": "Backlog",
+          "children": [
+
+          ]
+        },
+        {
+          "name": "FOUNDATION-3560-Team Apps Deployment",
+          "value": "Backlog",
+          "children": [
+
+          ]
+        },
+        {
+          "name": "FOUNDATION-3559-Team Banker Data",
+          "value": "Backlog",
+          "children": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CUSTSUCCES-591-Migrate Service and components running in current Shared environment to new environment",
+      "value": "Backlog",
+      "children": [
+        {
+          "name": "CUSTSUCCES-619-Team Apps Deployment config",
+          "value": "Backlog",
+          "children": [
+
+          ]
+        },
+        {
+          "name": "CUSTSUCCES-618-Team apps deployment",
+          "value": "Backlog",
+          "children": [
+
+          ]
+        },
+        {
+          "name": "CUSTSUCCES-617-Team banker data",
+          "value": "Backlog",
+          "children": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CONSOLE-3607-Migrate Service and components running in current perf environment to new Perf environment",
+      "value": "Backlog",
+      "children": [
+        {
+          "name": "CONSOLE-3654-Deploy the console-client into a new CloudFront distribution and document the process",
+          "value": "Backlog",
+          "children": [
+
+          ]
+        },
+        {
+          "name": "CONSOLE-3653-Deploy the console service into the perf environment and document the process",
+          "value": "Backlog",
+          "children": [
+
+          ]
+        },
+        {
+          "name": "CONSOLE-3639-Team Apps Deployment Config",
+          "value": "Backlog",
+          "children": [
+
+          ]
+        },
+        {
+          "name": "CONSOLE-3638-Team Apps Deployment",
+          "value": "Backlog",
+          "children": [
+
+          ]
+        },
+        {
+          "name": "CONSOLE-3637-Team Banker Data",
+          "value": "Backlog",
+          "children": [
+
+          ]
+        }
+      ]
+    }
+  ]
+}
